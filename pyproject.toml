@@ -1,0 +1,20 @@
+### `pyproject.toml`  
+  
+[project]  
+name = "lecture-1083-project"  
+version = "1.0.0"  
+description = "타이타닉 데이터셋 분석 및 생존율 예측"  
+authors = ["suoooo-01 <clubnoah3@gmail.com>"]  
+license = "MIT"  
+readme = "README.md"  
+  
+[dependencies]  
+pandas = "^2.1.0"  
+numpy = "^1.26.0"  
+matplotlib = "^3.8.0"  
+seaborn = "^0.13.0"  
+scikit-learn = "^1.4.0"  
+jupyter = "^1.0.0"  
+  
+[tool.jupyter]  
+kernelspec = {display_name = "Python 3", language = "python", name = "python3"}  
